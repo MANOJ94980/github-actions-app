@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "GitHub Actions CI/CD Working"
+    return "Updated Deployment using GitHub Actions"
 
 @app.route('/hello')
 def hello():
